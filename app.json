@@ -14,6 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "plugins": [
+      "./withSms.js"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -24,7 +27,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.cyrus25.expensetrack"
     },
     "web": {
       "favicon": "./assets/favicon.png"
